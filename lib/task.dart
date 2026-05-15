@@ -1,10 +1,10 @@
 class Task {
-  String title;
-  String description;
-  String category;
-  String priority;
-  DateTime dueDate;
-  bool isCompleted;
+  String title;        // The name of the task
+  String description;  // Details about the task
+  String category;     // School, Personal, or Health
+  String priority;     // Low, Medium, or High
+  DateTime dueDate;    // When the task is due
+  bool isCompleted;    // Whether the task is done
 
   Task({
     required this.title,
